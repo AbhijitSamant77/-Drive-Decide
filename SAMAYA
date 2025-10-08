@@ -1,0 +1,22 @@
+import time
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+timestamp = time.strftime("THE HOUR IS: %H")
+print(timestamp)
+timestamp = time.strftime("THE MINUTE IS: %M")
+print(timestamp)
+timestamp = time.strftime("THE SECOND IS: %S")
+print(timestamp)
+# Greeting based on time
+hour = int(time.strftime('%H'))
+if 0 <= hour < 12:
+    print("Good Morning! Soya hai toh jag ja")
+elif 12 <= hour < 17:
+    print("Good Afternoon!  kamm toh chalta rahega khana kha leta hnu abhi")
+elif 17 <= hour < 20:
+    print("Good Evening! bass nikal gayi hawa")
+else:
+    print("Good Night! jaga hai toh soo ja")
+#A simple Python script that displays the current time (hour, minute, and second) and gives a fun, personalized greeting based on the time of day.
+#💡 Next Step: I plan to enhance it with personalized user input and maybe even add voice-based greetings in the future! 🚀
+#For this I need help please if anyone is free help me to learn more & more.
